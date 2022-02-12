@@ -3,25 +3,28 @@ The housing market in the United States is one of the quickest developing areas 
 
 ## Technologies Used:
 
-1) Data Model is designed using draw.io, showing one to many relationship between the population and US Housing datasets.
-2) The data files are merged using Tableau Prep Builder.
-3) Amazon S3 Bucket to load the merged dataset.
-4) Amazon Glue to perform Extract, Transform and Load operations (ETL).
-5) Amazon Redshift to load the transformed bulk data having 900 thousand records.
-6) Amazon Sagemaker to perform data mining to extract and discover patterns in dataset.
-7) Tableau to create dashboard to visualize housing market trends.
+- Draw.io
+- Tableau Prep Builder 
+- AWS S3 Bucket
+- AWS Glue
+- AWS Redshift
+- AWS Sagemaker
+- Tableau 
 
 ## Steps Involved:
 
 1) The data for the analysis is gathered from US Housing Market from Kaggle and Population Dataest from US Census Bureau
-2) The data files are cleaned and merged based on common columns.
-3) The cleaned data is loaded to Amazon S3 Bucket in CSV format.
-4) The structure of the table is created using AWS Glue Crawler.
-5) Data is then converted into tables using the AWS Glue job, which tranfers the data from S3 to Redshift.
-6) Data is explored using the Data Mining techniques in AWS Sagemaker
-7) The trends are visualized using Tableau.
+2) Data Model is designed using draw.io, showing one to many relationship between the population and US Housing datasets.
+3) The data files are cleaned and merged based on common columns, using Tableau Prep Builder
+4) The cleaned data is loaded to Amazon S3 Bucket in CSV format.
+5) The structure of the table is created using AWS Glue Crawler.
+6) Data is then converted into tables using the AWS Glue job, which tranfers the data from S3 to Redshift.
+7) Data is explored using the Data Mining techniques in AWS Sagemaker
+8) The trends are visualized and dashboard is created using Tableau.
 
 ## Summary
+
+Below are the images of the dashboards showing the US housing market trend and the imapct of population on the housing market
 
 ![Dashboard1](https://user-images.githubusercontent.com/49642360/153700748-b84e79f3-d6b5-4ecd-ac2e-a57d989c6e50.png)
 
