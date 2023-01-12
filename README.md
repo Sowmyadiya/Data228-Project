@@ -15,7 +15,7 @@ The housing market in the United States is one of the quickest developing areas 
 
 1) The data for the analysis is gathered from US Housing Market from Kaggle and Population Dataest from US Census Bureau
 2) Data Model is designed using draw.io, showing one to many relationship between the population and US Housing datasets.
-3) The data files are cleaned and merged based on common columns, using Tableau Prep Builder
+3) The data files are cleansed and merged based on common columns, using Tableau Prep Builder
 4) The cleaned data is loaded to Amazon S3 Bucket in CSV format.
 5) The structure of the table is created using AWS Glue Crawler.
 6) Data is then converted into tables using the AWS Glue job, which tranfers the data from S3 to Redshift.
